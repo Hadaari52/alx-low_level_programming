@@ -1,4 +1,2 @@
 #!/bin/bash
-CFILE="your_c_file.c"
-BASENAME=$(basename "$CFILE" .c)
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -c "$CFILE" -o "$BASENAME.o"
+gcc -c $CFILE -
