@@ -1,4 +1,2 @@
 #!/bin/bash
-CFILE="your_c_file.c"
-cpp "$CFILE" -o c
-echo "Preprocessing complete. Output saved in c."
+CFILE="main.c";gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -E "$CFILE" -o c
