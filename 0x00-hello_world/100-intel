@@ -1,4 +1,2 @@
 #!/bin/bash
-CFILE="example.c"
-OFILE="${CFILE%.c}.s"
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -S -masm=intel "$CFILE" -o "$OFILE"
+CFILE="example.c"; OFILE="${CFILE%.c}.s"; gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -S -masm=intel "$CFILE" -o "$OFILE"
