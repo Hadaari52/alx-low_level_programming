@@ -1,3 +1,0 @@
-#!/bin/bash
-CFILE="example.c"
-OFILE="${CFILE%.c}.s"
