@@ -6,6 +6,10 @@
 */
 int main(void)
 {
+/*
+* main - entry point
+* Return: always
+*/
 _putchar('_');
 _putchar('p');
 _putchar('u');
