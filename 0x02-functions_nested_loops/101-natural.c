@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/**
+* main - Entry point of the program
+*
+* Return: 0 on success
+*/
 int main(void)
 {
 int i;
@@ -12,5 +16,5 @@ sum += i;
 }
 }
 printf("%d\n", sum);
-return 0;
+  return 0;
 }
