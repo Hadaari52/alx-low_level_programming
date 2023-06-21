@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "100-main.c"
+#include "main.h"
 /**
  * print_times_table - prints the n times table, starting with 0
  * @n: the number of times to print the table (0 <= n <= 15)
